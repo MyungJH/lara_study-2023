@@ -1,0 +1,50 @@
+form {
+    padding-top: 10px;
+}
+
+.modify-content__column {
+    margin-bottom: 15px;
+}
+
+.modify-content__column > label {
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    font-weight: bold;
+    box-shadow: 0px 5px 7px 1px rgb(248, 242, 242);
+}
+
+.modify-content__column input {
+    border: none;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    font-size: 17px;
+}
+
+.modify-content__column input:focus {
+    border-color: #b2b2b2;
+}
+
+.modify-content__confirm-btn,
+.modify-content__confirm-btn > button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modify-content__confirm-btn input,
+.modify-content__confirm-btn > button {
+    margin-top: 20px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: 1px 5px 7px 1px rgb(216, 215, 215);
+}
+
+.modify-content__confirm-btn input:hover,
+.modify-content__confirm-btn > button:hover {
+    background-color: rgb(158, 155, 155);
+}

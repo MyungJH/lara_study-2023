@@ -1,0 +1,22 @@
+h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    border-bottom: thick double rgba(0, 0, 0, 0.3);
+    padding-bottom: 10px;
+}
+
+.system-purpose {
+    margin-bottom: 20px;
+}
+
+.system-purpose__header,
+.system-operation__header {
+    margin-bottom: 20px;
+}
+
+.system-purpose__header span,
+.system-operation__header span {
+    font-size: 25px;
+    font-weight: 500;
+}
